@@ -25,7 +25,8 @@ namespace WebAppDB.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            throw new Exception("Exception Test");
+            //return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
